@@ -1,12 +1,9 @@
-import { Button } from "@/components/ui/button";
+import ImageUploadSection from "@/components/ImageUploadSection";
 
 export default function Home() {
   return (
-    <>
-      <p>Hello World! こんにちは</p>
-      <Button size="sm" variant="ghost">
-        Hi!
-      </Button>
-    </>
+    <div className="flex justify-center items-center">
+      <ImageUploadSection />
+    </div>
   );
 }
